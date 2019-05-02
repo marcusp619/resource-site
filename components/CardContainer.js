@@ -20,6 +20,7 @@ const CardContainer = props => {
 
         h1 {
           font-size: 2.5rem;
+          margin-left: 20px;
         }
       `}</style>
     </section>

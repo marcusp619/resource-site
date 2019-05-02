@@ -20,7 +20,6 @@ const Card = () => {
             "count title title"
             "posted . .";
           align-items: center;
-          border-bottom: 1px solid black;
         }
 
         h3 {

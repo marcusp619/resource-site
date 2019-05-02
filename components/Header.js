@@ -3,11 +3,8 @@ import Link from "next/link";
 const Header = () => (
   <nav>
     <div className="logo">
-      <span>Logo</span>
+      <span>SOURCE</span>
     </div>
-    <Link href="/">
-      <a>Home</a>
-    </Link>
 
     <style jsx>{`
       nav {
@@ -15,6 +12,12 @@ const Header = () => (
         font-family: "Lato", sans-serif;
         // font-family: 'Roboto', sans-serif;
         margin-bottom: 50px;
+      }
+
+      span {
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        font-size: 20px;
       }
 
       a {
