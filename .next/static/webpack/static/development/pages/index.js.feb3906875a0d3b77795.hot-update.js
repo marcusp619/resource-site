@@ -17,9 +17,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_Head__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/Head */ "./node_modules/next/Head.js");
 /* harmony import */ var next_Head__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_Head__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _components_CardContainer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/CardContainer */ "./components/CardContainer.js");
-/* harmony import */ var _utils_data__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../utils/data */ "./utils/data.js");
 var _jsxFileName = "/Users/mpearyer/Documents/code/flatiron-resources-site-next/pages/index.js";
-
 
 
 
@@ -30,10 +28,10 @@ var Page = function Page() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 8
     },
     __self: this
-  }, console.log(_utils_data__WEBPACK_IMPORTED_MODULE_5__["default"]), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_Head__WEBPACK_IMPORTED_MODULE_3___default.a, {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_Head__WEBPACK_IMPORTED_MODULE_3___default.a, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
@@ -45,19 +43,40 @@ var Page = function Page() {
       lineNumber: 10
     },
     __self: this
-  }, "Flatiron Resources"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
-    href: "https://fonts.googleapis.com/css?family=Lato|Roboto",
-    rel: "stylesheet",
+  }, "Flatiron Resources"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    name: "viewport",
+    content: "width=device-width, initial-scale=1",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_CardContainer__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    charSet: "utf-8",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    href: "https://fonts.googleapis.com/css?family=Lato|Roboto",
+    rel: "stylesheet",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("style", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, "\n          * { box-sizing: border-box; margin: 0; padding: 0 }\n        ")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_CardContainer__WEBPACK_IMPORTED_MODULE_4__["default"], {
     category: "Javascript",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 21
     },
     __self: this
   }));
@@ -68,4 +87,4 @@ var Page = function Page() {
 /***/ })
 
 })
-//# sourceMappingURL=index.js.10069915d3bb362d3267.hot-update.js.map
+//# sourceMappingURL=index.js.feb3906875a0d3b77795.hot-update.js.map

@@ -12,6 +12,8 @@ const Header = () => (
         font-family: "Lato", sans-serif;
         // font-family: 'Roboto', sans-serif;
         margin-bottom: 50px;
+        height: 300px;
+        background: blue;
       }
 
       span {

@@ -43,19 +43,34 @@ var Page = function Page() {
       lineNumber: 10
     },
     __self: this
-  }, "Flatiron Resources"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+  }, "Flatiron Resources"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    name: "viewport",
+    content: "width=device-width, initial-scale=1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    charSet: "utf-8",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
     href: "https://fonts.googleapis.com/css?family=Lato|Roboto",
     rel: "stylesheet",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 13
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_CardContainer__WEBPACK_IMPORTED_MODULE_4__["default"], {
     category: "Javascript",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 18
     },
     __self: this
   }));
@@ -66,4 +81,4 @@ var Page = function Page() {
 /***/ })
 
 })
-//# sourceMappingURL=index.js.7e1d7c70cbac664cf596.hot-update.js.map
+//# sourceMappingURL=index.js.264b0dbb074f8bb4928d.hot-update.js.map
