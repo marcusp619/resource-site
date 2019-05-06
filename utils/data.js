@@ -108,3 +108,5 @@ const data = [
     added_by: "Mark Pearyer"
   }
 ];
+
+export default data;

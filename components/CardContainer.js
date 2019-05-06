@@ -1,15 +1,15 @@
 import Card from "./Card";
+import cardData from "../utils/data";
+
+const cards = cardData.map((sourceData, i) => (
+  <Card source={sourceData} num={i + 1} key={i} />
+));
 
 const CardContainer = props => {
   return (
     <section>
       <h1>{props.category}</h1>
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-
+      {cards}
       <style jsx>{`
         section {
           margin: 0 auto;

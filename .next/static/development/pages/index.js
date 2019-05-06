@@ -13,64 +13,60 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "/Users/mpearyer/Documents/code/flatiron-resources-site-next/components/Card.js";
 
 
 
-var Card = function Card() {
+
+var Card = function Card(props) {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("article", {
-    className: "jsx-3360931183",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 3
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-3360931183" + " " + "content__count",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
     className: "jsx-3360931183",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
     },
     __self: this
-  }, "1")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-3360931183" + " " + "content__data",
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-3360931183" + " " + "content__count",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+    className: "jsx-3360931183",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
+    },
+    __self: this
+  }, props.num)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-3360931183" + " " + "content__data",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
     className: "jsx-3360931183",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, "The future of Unreal Tournament begins today", " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
-    className: "jsx-3360931183",
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  }, "(unrealengine.com)")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+  }, props.source.title), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     className: "jsx-3360931183",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 11
     },
     __self: this
-  }, "20 hours ago | By Mark")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+  }, "Added By: ", props.source.added_by)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "3360931183",
     __self: this
-  }, "article.jsx-3360931183{display:grid;grid-template-columns:80px 1fr 1fr;grid-template-areas: \"count title title\" \"posted . .\";-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}h3.jsx-3360931183{grid-area:title;color:#00b3e6;}.content__count.jsx-3360931183{display:grid;background:#2b2b2b;grid-area:count;width:30px;height:30px;margin-left:20px;border-radius:4px;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-content:center;-ms-flex-line-pack:center;align-content:center;font-weight:bold;color:white;}.content__count.jsx-3360931183 span.jsx-3360931183{color:#efefef;}h3.jsx-3360931183 span.jsx-3360931183{color:#2b2b2b;}p.jsx-3360931183{grid-area:posted;margin-top:-16px;font-weight:600;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tcGVhcnllci9Eb2N1bWVudHMvY29kZS9mbGF0aXJvbi1yZXNvdXJjZXMtc2l0ZS1uZXh0L2NvbXBvbmVudHMvQ2FyZC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFja0IsQUFHd0IsQUFTRyxBQUtILEFBY0MsQUFJQSxBQUlHLGFBbkNrQixBQWNoQixDQWNyQixBQUlBLEVBdkJnQixDQTJCRyxhQTFCbkIsRUFLa0IsRUFzQkEsY0FsQ0YsQUFhSCxFQXNCYixTQXJCYyxZQUNLLGlCQUNDLGNBZkMsSUFnQkkseUZBZnpCLFVBZ0J1Qiw0RUFDSixpQkFDTCxZQUNkIiwiZmlsZSI6Ii9Vc2Vycy9tcGVhcnllci9Eb2N1bWVudHMvY29kZS9mbGF0aXJvbi1yZXNvdXJjZXMtc2l0ZS1uZXh0L2NvbXBvbmVudHMvQ2FyZC5qcyIsInNvdXJjZXNDb250ZW50IjpbImNvbnN0IENhcmQgPSAoKSA9PiB7XG4gIHJldHVybiAoXG4gICAgPGFydGljbGU+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRlbnRfX2NvdW50XCI+XG4gICAgICAgIDxzcGFuPjE8L3NwYW4+XG4gICAgICA8L2Rpdj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udGVudF9fZGF0YVwiPlxuICAgICAgICA8aDM+XG4gICAgICAgICAgVGhlIGZ1dHVyZSBvZiBVbnJlYWwgVG91cm5hbWVudCBiZWdpbnMgdG9kYXl7XCIgXCJ9XG4gICAgICAgICAgPHNwYW4+KHVucmVhbGVuZ2luZS5jb20pPC9zcGFuPlxuICAgICAgICA8L2gzPlxuICAgICAgICA8cD4yMCBob3VycyBhZ28gfCBCeSBNYXJrPC9wPlxuICAgICAgPC9kaXY+XG5cbiAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgYXJ0aWNsZSB7XG4gICAgICAgICAgZGlzcGxheTogZ3JpZDtcbiAgICAgICAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDgwcHggMWZyIDFmcjtcbiAgICAgICAgICBncmlkLXRlbXBsYXRlLWFyZWFzOlxuICAgICAgICAgICAgXCJjb3VudCB0aXRsZSB0aXRsZVwiXG4gICAgICAgICAgICBcInBvc3RlZCAuIC5cIjtcbiAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICB9XG5cbiAgICAgICAgaDMge1xuICAgICAgICAgIGdyaWQtYXJlYTogdGl0bGU7XG4gICAgICAgICAgY29sb3I6ICMwMGIzZTY7XG4gICAgICAgIH1cblxuICAgICAgICAuY29udGVudF9fY291bnQge1xuICAgICAgICAgIGRpc3BsYXk6IGdyaWQ7XG4gICAgICAgICAgYmFja2dyb3VuZDogIzJiMmIyYjtcbiAgICAgICAgICBncmlkLWFyZWE6IGNvdW50O1xuICAgICAgICAgIHdpZHRoOiAzMHB4O1xuICAgICAgICAgIGhlaWdodDogMzBweDtcbiAgICAgICAgICBtYXJnaW4tbGVmdDogMjBweDtcbiAgICAgICAgICBib3JkZXItcmFkaXVzOiA0cHg7XG4gICAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgICAgICAgYWxpZ24tY29udGVudDogY2VudGVyO1xuICAgICAgICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xuICAgICAgICAgIGNvbG9yOiB3aGl0ZTtcbiAgICAgICAgfVxuXG4gICAgICAgIC5jb250ZW50X19jb3VudCBzcGFuIHtcbiAgICAgICAgICBjb2xvcjogI2VmZWZlZjtcbiAgICAgICAgfVxuXG4gICAgICAgIGgzIHNwYW4ge1xuICAgICAgICAgIGNvbG9yOiAjMmIyYjJiO1xuICAgICAgICB9XG5cbiAgICAgICAgcCB7XG4gICAgICAgICAgZ3JpZC1hcmVhOiBwb3N0ZWQ7XG4gICAgICAgICAgbWFyZ2luLXRvcDogLTE2cHg7XG4gICAgICAgICAgZm9udC13ZWlnaHQ6IDYwMDtcbiAgICAgICAgfVxuICAgICAgYH08L3N0eWxlPlxuICAgIDwvYXJ0aWNsZT5cbiAgKTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IENhcmQ7XG4iXX0= */\n/*@ sourceURL=/Users/mpearyer/Documents/code/flatiron-resources-site-next/components/Card.js */"));
+  }, "article.jsx-3360931183{display:grid;grid-template-columns:80px 1fr 1fr;grid-template-areas: \"count title title\" \"posted . .\";-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}h3.jsx-3360931183{grid-area:title;color:#00b3e6;}.content__count.jsx-3360931183{display:grid;background:#2b2b2b;grid-area:count;width:30px;height:30px;margin-left:20px;border-radius:4px;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-content:center;-ms-flex-line-pack:center;align-content:center;font-weight:bold;color:white;}.content__count.jsx-3360931183 span.jsx-3360931183{color:#efefef;}h3.jsx-3360931183 span.jsx-3360931183{color:#2b2b2b;}p.jsx-3360931183{grid-area:posted;margin-top:-16px;font-weight:600;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tcGVhcnllci9Eb2N1bWVudHMvY29kZS9mbGF0aXJvbi1yZXNvdXJjZXMtc2l0ZS1uZXh0L2NvbXBvbmVudHMvQ2FyZC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFha0IsQUFHd0IsQUFTRyxBQUtILEFBY0MsQUFJQSxBQUlHLGFBbkNrQixBQWNoQixDQWNyQixBQUlBLEVBdkJnQixDQTJCRyxhQTFCbkIsRUFLa0IsRUFzQkEsY0FsQ0YsQUFhSCxFQXNCYixTQXJCYyxZQUNLLGlCQUNDLGNBZkMsSUFnQkkseUZBZnpCLFVBZ0J1Qiw0RUFDSixpQkFDTCxZQUNkIiwiZmlsZSI6Ii9Vc2Vycy9tcGVhcnllci9Eb2N1bWVudHMvY29kZS9mbGF0aXJvbi1yZXNvdXJjZXMtc2l0ZS1uZXh0L2NvbXBvbmVudHMvQ2FyZC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMaW5rIGZyb20gXCJuZXh0L2xpbmtcIjtcblxuY29uc3QgQ2FyZCA9IHByb3BzID0+IHtcbiAgcmV0dXJuIChcbiAgICA8YXJ0aWNsZT5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udGVudF9fY291bnRcIj5cbiAgICAgICAgPHNwYW4+e3Byb3BzLm51bX08L3NwYW4+XG4gICAgICA8L2Rpdj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udGVudF9fZGF0YVwiPlxuICAgICAgICA8aDM+e3Byb3BzLnNvdXJjZS50aXRsZX08L2gzPlxuICAgICAgICA8cD5BZGRlZCBCeToge3Byb3BzLnNvdXJjZS5hZGRlZF9ieX08L3A+XG4gICAgICA8L2Rpdj5cblxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICBhcnRpY2xlIHtcbiAgICAgICAgICBkaXNwbGF5OiBncmlkO1xuICAgICAgICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogODBweCAxZnIgMWZyO1xuICAgICAgICAgIGdyaWQtdGVtcGxhdGUtYXJlYXM6XG4gICAgICAgICAgICBcImNvdW50IHRpdGxlIHRpdGxlXCJcbiAgICAgICAgICAgIFwicG9zdGVkIC4gLlwiO1xuICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgIH1cblxuICAgICAgICBoMyB7XG4gICAgICAgICAgZ3JpZC1hcmVhOiB0aXRsZTtcbiAgICAgICAgICBjb2xvcjogIzAwYjNlNjtcbiAgICAgICAgfVxuXG4gICAgICAgIC5jb250ZW50X19jb3VudCB7XG4gICAgICAgICAgZGlzcGxheTogZ3JpZDtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiAjMmIyYjJiO1xuICAgICAgICAgIGdyaWQtYXJlYTogY291bnQ7XG4gICAgICAgICAgd2lkdGg6IDMwcHg7XG4gICAgICAgICAgaGVpZ2h0OiAzMHB4O1xuICAgICAgICAgIG1hcmdpbi1sZWZ0OiAyMHB4O1xuICAgICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgICBhbGlnbi1jb250ZW50OiBjZW50ZXI7XG4gICAgICAgICAgZm9udC13ZWlnaHQ6IGJvbGQ7XG4gICAgICAgICAgY29sb3I6IHdoaXRlO1xuICAgICAgICB9XG5cbiAgICAgICAgLmNvbnRlbnRfX2NvdW50IHNwYW4ge1xuICAgICAgICAgIGNvbG9yOiAjZWZlZmVmO1xuICAgICAgICB9XG5cbiAgICAgICAgaDMgc3BhbiB7XG4gICAgICAgICAgY29sb3I6ICMyYjJiMmI7XG4gICAgICAgIH1cblxuICAgICAgICBwIHtcbiAgICAgICAgICBncmlkLWFyZWE6IHBvc3RlZDtcbiAgICAgICAgICBtYXJnaW4tdG9wOiAtMTZweDtcbiAgICAgICAgICBmb250LXdlaWdodDogNjAwO1xuICAgICAgICB9XG4gICAgICBgfTwvc3R5bGU+XG4gICAgPC9hcnRpY2xlPlxuICApO1xufTtcblxuZXhwb3J0IGRlZmF1bHQgQ2FyZDtcbiJdfQ== */\n/*@ sourceURL=/Users/mpearyer/Documents/code/flatiron-resources-site-next/components/Card.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Card);
@@ -91,60 +87,44 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Card__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Card */ "./components/Card.js");
+/* harmony import */ var _utils_data__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils/data */ "./utils/data.js");
 var _jsxFileName = "/Users/mpearyer/Documents/code/flatiron-resources-site-next/components/CardContainer.js";
 
 
 
+
+var cards = _utils_data__WEBPACK_IMPORTED_MODULE_3__["default"].map(function (sourceData, i) {
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Card__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    source: sourceData,
+    num: i + 1,
+    key: i,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  });
+});
 
 var CardContainer = function CardContainer(props) {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("section", {
     className: "jsx-2707424327",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 10
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
     className: "jsx-2707424327",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, props.category), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Card__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Card__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Card__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Card__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Card__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+  }, props.category), cards, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "2707424327",
     __self: this
-  }, "section.jsx-2707424327{margin:0 auto;margin-bottom:20px;display:grid;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;}h1.jsx-2707424327{font-size:2.5rem;margin-left:20px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tcGVhcnllci9Eb2N1bWVudHMvY29kZS9mbGF0aXJvbi1yZXNvdXJjZXMtc2l0ZS1uZXh0L2NvbXBvbmVudHMvQ2FyZENvbnRhaW5lci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFZa0IsQUFHeUIsQUFPRyxjQU5FLEdBT0YsZ0JBTkosQ0FPZixZQU55QixtR0FDekIiLCJmaWxlIjoiL1VzZXJzL21wZWFyeWVyL0RvY3VtZW50cy9jb2RlL2ZsYXRpcm9uLXJlc291cmNlcy1zaXRlLW5leHQvY29tcG9uZW50cy9DYXJkQ29udGFpbmVyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IENhcmQgZnJvbSBcIi4vQ2FyZFwiO1xuXG5jb25zdCBDYXJkQ29udGFpbmVyID0gcHJvcHMgPT4ge1xuICByZXR1cm4gKFxuICAgIDxzZWN0aW9uPlxuICAgICAgPGgxPntwcm9wcy5jYXRlZ29yeX08L2gxPlxuICAgICAgPENhcmQgLz5cbiAgICAgIDxDYXJkIC8+XG4gICAgICA8Q2FyZCAvPlxuICAgICAgPENhcmQgLz5cbiAgICAgIDxDYXJkIC8+XG5cbiAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgc2VjdGlvbiB7XG4gICAgICAgICAgbWFyZ2luOiAwIGF1dG87XG4gICAgICAgICAgbWFyZ2luLWJvdHRvbTogMjBweDtcbiAgICAgICAgICBkaXNwbGF5OiBncmlkO1xuICAgICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICB9XG5cbiAgICAgICAgaDEge1xuICAgICAgICAgIGZvbnQtc2l6ZTogMi41cmVtO1xuICAgICAgICAgIG1hcmdpbi1sZWZ0OiAyMHB4O1xuICAgICAgICB9XG4gICAgICBgfTwvc3R5bGU+XG4gICAgPC9zZWN0aW9uPlxuICApO1xufTtcblxuZXhwb3J0IGRlZmF1bHQgQ2FyZENvbnRhaW5lcjtcbiJdfQ== */\n/*@ sourceURL=/Users/mpearyer/Documents/code/flatiron-resources-site-next/components/CardContainer.js */"));
+  }, "section.jsx-2707424327{margin:0 auto;margin-bottom:20px;display:grid;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;}h1.jsx-2707424327{font-size:2.5rem;margin-left:20px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tcGVhcnllci9Eb2N1bWVudHMvY29kZS9mbGF0aXJvbi1yZXNvdXJjZXMtc2l0ZS1uZXh0L2NvbXBvbmVudHMvQ2FyZENvbnRhaW5lci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFZa0IsQUFHeUIsQUFPRyxjQU5FLEdBT0YsZ0JBTkosQ0FPZixZQU55QixtR0FDekIiLCJmaWxlIjoiL1VzZXJzL21wZWFyeWVyL0RvY3VtZW50cy9jb2RlL2ZsYXRpcm9uLXJlc291cmNlcy1zaXRlLW5leHQvY29tcG9uZW50cy9DYXJkQ29udGFpbmVyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IENhcmQgZnJvbSBcIi4vQ2FyZFwiO1xuaW1wb3J0IGNhcmREYXRhIGZyb20gXCIuLi91dGlscy9kYXRhXCI7XG5cbmNvbnN0IGNhcmRzID0gY2FyZERhdGEubWFwKChzb3VyY2VEYXRhLCBpKSA9PiAoXG4gIDxDYXJkIHNvdXJjZT17c291cmNlRGF0YX0gbnVtPXtpICsgMX0ga2V5PXtpfSAvPlxuKSk7XG5cbmNvbnN0IENhcmRDb250YWluZXIgPSBwcm9wcyA9PiB7XG4gIHJldHVybiAoXG4gICAgPHNlY3Rpb24+XG4gICAgICA8aDE+e3Byb3BzLmNhdGVnb3J5fTwvaDE+XG4gICAgICB7Y2FyZHN9XG4gICAgICA8c3R5bGUganN4PntgXG4gICAgICAgIHNlY3Rpb24ge1xuICAgICAgICAgIG1hcmdpbjogMCBhdXRvO1xuICAgICAgICAgIG1hcmdpbi1ib3R0b206IDIwcHg7XG4gICAgICAgICAgZGlzcGxheTogZ3JpZDtcbiAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgfVxuXG4gICAgICAgIGgxIHtcbiAgICAgICAgICBmb250LXNpemU6IDIuNXJlbTtcbiAgICAgICAgICBtYXJnaW4tbGVmdDogMjBweDtcbiAgICAgICAgfVxuICAgICAgYH08L3N0eWxlPlxuICAgIDwvc2VjdGlvbj5cbiAgKTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IENhcmRDb250YWluZXI7XG4iXX0= */\n/*@ sourceURL=/Users/mpearyer/Documents/code/flatiron-resources-site-next/components/CardContainer.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (CardContainer);
@@ -11656,10 +11636,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
-/* harmony import */ var next_Head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/Head */ "./node_modules/next/Head.js");
-/* harmony import */ var next_Head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_Head__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _components_CardContainer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/CardContainer */ "./components/CardContainer.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var next_Head__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/Head */ "./node_modules/next/Head.js");
+/* harmony import */ var next_Head__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_Head__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _components_CardContainer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/CardContainer */ "./components/CardContainer.js");
 var _jsxFileName = "/Users/mpearyer/Documents/code/flatiron-resources-site-next/pages/index.js";
+
 
 
 
@@ -11669,19 +11652,19 @@ var Page = function Page() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 8
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_Head__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_Head__WEBPACK_IMPORTED_MODULE_3___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 9
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 10
     },
     __self: this
   }, "Flatiron Resources"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -11689,48 +11672,124 @@ var Page = function Page() {
     rel: "stylesheet",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 11
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_CardContainer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_CardContainer__WEBPACK_IMPORTED_MODULE_4__["default"], {
     category: "Javascript",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_CardContainer__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    category: "CSS",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_CardContainer__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    category: "A11Y",
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 16
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_CardContainer__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    category: "HTML",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_CardContainer__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    category: "General",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
     },
     __self: this
   }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Object(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"])(Page));
+
+/***/ }),
+
+/***/ "./utils/data.js":
+/*!***********************!*\
+  !*** ./utils/data.js ***!
+  \***********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var data = [{
+  title: "CSS-Tricks",
+  url: "https://css-tricks.com/",
+  category: "CSS",
+  added_by: "Mark Pearyer"
+}, {
+  title: "CSS Grid",
+  url: "https://css-tricks.com/snippets/css/complete-guide-grid/",
+  category: "CSS",
+  added_by: "Mark Pearyer"
+}, {
+  title: "CSS Flexbox",
+  url: "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+  category: "CSS",
+  added_by: "Mark Pearyer"
+}, {
+  title: "MDN Web Docs",
+  url: "https://developer.mozilla.org/en-US/",
+  category: "General",
+  added_by: "Mark Pearyer"
+}, {
+  title: "Dribbble",
+  url: "https://dribbble.com/",
+  category: "CSS",
+  added_by: "Mark Pearyer"
+}, {
+  title: "Behance",
+  url: "https://www.behance.net/",
+  category: "CSS",
+  added_by: "Mark Pearyer"
+}, {
+  title: "Codepen",
+  url: "https://codepen.io/",
+  category: "CSS",
+  added_by: "Mark Pearyer"
+}, {
+  title: "You Don't Know JS (book series)",
+  url: "https://github.com/getify/You-Dont-Know-JS",
+  category: "Javascript",
+  added_by: "Mark Pearyer"
+}, {
+  title: "Unsplash",
+  url: "https://unsplash.com",
+  category: "General",
+  added_by: "Mark Pearyer"
+}, {
+  title: "Hacker Rank",
+  url: "https://www.hackerrank.com/",
+  category: "General",
+  added_by: "Mark Pearyer"
+}, {
+  title: "Codewars",
+  url: "https://www.codewars.com/",
+  category: "General",
+  added_by: "Mark Pearyer"
+}, {
+  title: "Exercism",
+  url: "https://exercism.io/",
+  category: "General",
+  added_by: "Mark Pearyer"
+}, {
+  title: "Devchat.tv",
+  url: "https://devchat.tv/",
+  category: "Podcast",
+  added_by: "Mark Pearyer"
+}, {
+  title: "FreeCodeCamp",
+  url: "https://freecodecamp.libsyn.com/",
+  category: "Podcast",
+  added_by: "Mark Pearyer"
+}, {
+  title: "Syntax",
+  url: "https://syntax.fm/",
+  category: "Podcast",
+  added_by: "Mark Pearyer"
+}, {
+  title: "Sprint UX",
+  url: "https://www.sprintuxpodcast.com/",
+  category: "Podcast",
+  added_by: "Mark Pearyer"
+}, {
+  title: "Developer Tea",
+  url: "https://spec.fm/podcasts/developer-tea",
+  category: "Podcast",
+  added_by: "Mark Pearyer"
+}, {
+  title: "Thoughtbot Podcast",
+  url: "https://thoughtbot.com/podcasts",
+  category: "Podcast",
+  added_by: "Mark Pearyer"
+}];
+/* harmony default export */ __webpack_exports__["default"] = (data);
 
 /***/ }),
 

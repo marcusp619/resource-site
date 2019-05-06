@@ -1,15 +1,14 @@
-const Card = () => {
+import Link from "next/link";
+
+const Card = props => {
   return (
     <article>
       <div className="content__count">
-        <span>1</span>
+        <span>{props.num}</span>
       </div>
       <div className="content__data">
-        <h3>
-          The future of Unreal Tournament begins today{" "}
-          <span>(unrealengine.com)</span>
-        </h3>
-        <p>20 hours ago | By Mark</p>
+        <h3>{props.source.title}</h3>
+        <p>Added By: {props.source.added_by}</p>
       </div>
 
       <style jsx>{`
