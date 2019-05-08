@@ -1,5 +1,4 @@
 import withLayout from "../components/Layout";
-import Link from "next/link";
 import Head from "next/Head";
 import CardContainer from "../components/CardContainer";
 
