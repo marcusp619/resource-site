@@ -1,8 +1,6 @@
 import Header from "./Header";
 
-const layoutStyle = {
-  padding: 15
-};
+const layoutStyle = {};
 
 const withLayout = Page => {
   return () => (

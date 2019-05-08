@@ -12,11 +12,15 @@ const Header = () => (
         font-family: "Lato", sans-serif;
         // font-family: 'Roboto', sans-serif;
         margin-bottom: 50px;
+        background: url(static/owen-cl-571744-unsplash.jpg) no-repeat center
+          center fixed;
+        background-size: cover;
+        height: 500px;
       }
 
       span {
-        border-top: 1px solid black;
-        border-bottom: 1px solid black;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
         font-size: 20px;
       }
 
@@ -38,6 +42,8 @@ const Header = () => (
 
       .logo {
         margin-right: 70px;
+        padding: 1rem;
+        color: white;
       }
     `}</style>
   </nav>
