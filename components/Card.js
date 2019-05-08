@@ -7,7 +7,11 @@ const Card = props => {
         <span>{props.num}</span>
       </div>
       <div className="content__data">
-        <h3>{props.source.title}</h3>
+        <Link href={props.source.url}>
+          <a target="_blank">
+            <h3>{props.source.title}</h3>
+          </a>
+        </Link>
         <p>Added By: {props.source.added_by}</p>
       </div>
 
@@ -19,6 +23,10 @@ const Card = props => {
             "count title title"
             "posted . .";
           align-items: center;
+        }
+
+        a {
+          text-decoration: none;
         }
 
         h3 {
