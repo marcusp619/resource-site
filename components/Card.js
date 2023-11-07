@@ -8,9 +8,7 @@ const Card = props => {
       </div>
       <div className="content__data">
         <Link href={props.source.url}>
-          <a target="_blank">
             <h3>{props.source.title}</h3>
-          </a>
         </Link>
         <p>Added By: {props.source.added_by}</p>
       </div>

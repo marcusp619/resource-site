@@ -6,7 +6,7 @@ const Page = () => {
   return (
     <div>
       <Head>
-        <title>Flatiron Resources</title>
+        <title>Resources</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
         <link
